@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:news/core/extensions/extensions.dart';
 import '../resources/manager_colors.dart';
 import '../resources/manager_font_sizes.dart';
 import '../resources/manager_font_weight.dart';
@@ -7,6 +6,7 @@ import '../resources/manager_height.dart';
 import '../resources/manager_raduis.dart';
 import '../resources/manager_strings.dart';
 import '../resources/manager_width.dart';
+import 'package:movies/core/extensions/extensions.dart';
 
 class BaseButton extends StatelessWidget {
   String? title = ManagerStrings.enter;

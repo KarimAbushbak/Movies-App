@@ -1,7 +1,7 @@
 import 'package:shared_preferences/shared_preferences.dart';
+import 'package:movies/core/extensions/extensions.dart';
 
 import '../../../../constants.dart';
-import 'package:news/core/extensions/extensions.dart';
 
 class AppSettingsSharedPreferences {
   static final _instance = AppSettingsSharedPreferences._internal();
