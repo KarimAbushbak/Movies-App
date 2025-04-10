@@ -1,8 +1,9 @@
 class ManagerAssets {
-  static const String splash = 'assets/images/splash/splash.png';
-  static const String outBoarding1 = 'assets/images/out_boarding/out_boarding1.png';
-  static const String outBoarding2 = 'assets/images/out_boarding/out_boarding2.png';
-  static const String outBoarding3 = 'assets/images/out_boarding/out_boarding3.png';
+  static const String splash = 'assets/images/splash/splash1.png';
+  static const String outBoarding1 = 'assets/images/outboarding/outboarding1.png';
+  static const String outBoarding2 = 'assets/images/outboarding/outboarding2.png';
+  static const String outBoarding3 = 'assets/images/outboarding/outboarding3.png';
+  static const String outBoarding4 = 'assets/images/outboarding/outboarding4.png';
   static const String facebook = 'assets/images/auth/facebook.png';
   static const String google = 'assets/images/auth/google.png';
   static const String home1 = 'assets/images/home/home1.png';

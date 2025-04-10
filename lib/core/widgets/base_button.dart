@@ -9,7 +9,7 @@ import '../resources/manager_width.dart';
 import 'package:movies/core/extensions/extensions.dart';
 
 class BaseButton extends StatelessWidget {
-  String? title = ManagerStrings.enter;
+  String? title = "ManagerStrings.enter";
   final bool isVisibleIcon;
   final double elevation;
   final double width;
@@ -20,7 +20,7 @@ class BaseButton extends StatelessWidget {
   TextStyle? textStyle = TextStyle(
     fontSize: ManagerFontSizes.s16,
     fontWeight: ManagerFontWeight.regular,
-    color: ManagerColors.white,
+    color: Colors.white
   );
 
   BaseButton({
@@ -30,7 +30,7 @@ class BaseButton extends StatelessWidget {
     this.isVisibleIcon = false,
     this.width = ManagerWidth.w355,
     this.height = ManagerHeight.h60,
-    this.bgColor = ManagerColors.primaryColor,
+    this.bgColor = ManagerColors.primaryColor1,
     this.textStyle,
     required this.onPressed,
   });
@@ -53,7 +53,7 @@ class BaseButton extends StatelessWidget {
       child: Text(
         title.onNull(),
         style: TextStyle(
-          color: ManagerColors.white,
+          color: Colors.white,
           fontWeight: ManagerFontWeight.regular,
           fontSize: ManagerFontSizes.s16,
         ),

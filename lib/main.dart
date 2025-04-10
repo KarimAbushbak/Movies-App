@@ -1,8 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/get_navigation.dart';
+import 'package:movies/routes/routes.dart';
 
-void main() {
-  runApp(const MyApp());
+import 'config/dependancy_injection.dart';
+
+void main() async {
+  await initModule();
+  runApp(MyApp());
 }
 
 class MyApp extends StatelessWidget {
@@ -13,6 +17,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return GetMaterialApp(
       debugShowCheckedModeBanner: false,
+      initialRoute: Routes.splashScreen,
+      onGenerateRoute: RouteGenerator.getRoute,
 
     );
   }
